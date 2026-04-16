@@ -1,6 +1,7 @@
 // ===============================
 // 1. VARIABLES (store data)
 // ===============================
+console.log("VARIABLES");
 
 let name = "Archana";   // string (text)
 let age = 19;           // number
@@ -14,6 +15,7 @@ console.log("Is Student:", isStudent);
 // ===============================
 // 2. CHANGING VARIABLE VALUE
 // ===============================
+console.log("CHANGING VARIABLE VALUE");
 
 age = 20;  // updating value
 console.log("Updated Age:", age);
@@ -22,6 +24,7 @@ console.log("Updated Age:", age);
 // ===============================
 // 3. OPERATORS
 // ===============================
+console.log("OPERATORS");
 
 let a = 10;
 let b = 5;
@@ -36,6 +39,7 @@ console.log("Modulus:", a % b);        // 0
 // ===============================
 // 4. COMPARISON OPERATORS
 // ===============================
+console.log("COMPARISON OPERATORS");
 
 console.log(a > b);   // true
 console.log(a < b);   // false
@@ -46,6 +50,7 @@ console.log(a != b);  // true
 // ===============================
 // 5. IF-ELSE (CONDITIONS)
 // ===============================
+console.log("IF-ELSE (CONDITIONS)");
 
 let marks = 75;
 
@@ -61,11 +66,17 @@ if (marks >= 90) {
 // ===============================
 // 6. LOOPS (REPEAT TASK)
 // ===============================
+console.log("LOOPS (REPEAT TASK)");
 
 // for loop
+
+console.log("For loop");
+
 for (let i = 0; i < 5; i++) {
     console.log("i =", i);
 }
+
+console.log("While loop");
 
 // while loop
 let count = 0;
@@ -78,6 +89,8 @@ while (count < 3) {
 // ===============================
 // 7. ARRAYS (LIST OF VALUES)
 // ===============================
+console.log("ARRAYS (LIST OF VALUES)");
+
 
 let nums = [1, 2, 3, 4];
 
@@ -86,6 +99,8 @@ console.log(nums[0]);    // first element
 console.log(nums.length); // size of array
 
 // loop through array
+console.log("loop through array");
+
 for (let i = 0; i < nums.length; i++) {
     console.log("Element:", nums[i]);
 }
@@ -94,6 +109,8 @@ for (let i = 0; i < nums.length; i++) {
 // ===============================
 // 8. ARRAY METHODS
 // ===============================
+console.log("ARRAY METHODS");
+
 
 nums.push(5);       // add at end
 console.log(nums);
@@ -105,6 +122,8 @@ console.log(nums);
 // ===============================
 // 9. FUNCTIONS (REUSABLE CODE)
 // ===============================
+// ===============================
+console.log(" FUNCTIONS (REUSABLE CODE)");
 
 function add(x, y) {
     return x + y;
@@ -117,6 +136,8 @@ console.log("Sum:", result);
 // ===============================
 // 10. OBJECTS (KEY-VALUE PAIRS)
 // ===============================
+
+console.log("OBJECTS (KEY-VALUE PAIRS)");
 
 let person = {
     name: "Archana",
@@ -131,6 +152,7 @@ console.log(person.age);
 // ===============================
 // 11. MAP (ADVANCED - VERY IMPORTANT)
 // ===============================
+console.log("MAP (ADVANCED - VERY IMPORTANT)");
 
 let map = new Map();
 
@@ -144,6 +166,7 @@ console.log(map.has(2)); // true
 // ===============================
 // 12. IMPORTANT PRACTICE
 // ===============================
+console.log("IMPORTANT Practice");
 
 // Find sum of array
 let arr = [1, 2, 3, 4, 5];
@@ -155,7 +178,7 @@ for (let i = 0; i < arr.length; i++) {
 
 console.log("Total Sum:", sum);
 
-
+console.log("END OF BASICS 🎉");
 // ===============================
 // END OF BASICS 🎉
 // ===============================
