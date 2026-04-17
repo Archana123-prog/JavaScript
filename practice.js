@@ -81,6 +81,7 @@ console.log(reversed);
 // Q7: Count vowels
 // -------------------------------
 console.log("\nQ7: Count vowels");
+
 let str2 = "javascript";
 let count = 0;
 
@@ -180,5 +181,5 @@ if (str3 === rev) {
 
 
 // =====================================
-// END OF FILE
+// END OF FILE🙂‍↕️ 
 // =====================================
