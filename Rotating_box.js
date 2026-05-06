@@ -11,7 +11,7 @@ var rotateTheBox = function(boxGrid) {
 
         let empty = n - 1;
 
-        for (let j = n - 1; j >=0; j++) {
+        for (let j = n - 1; j >=0; j--) {
             
             if (boxGrid[i][j] === '*') {
 
@@ -20,12 +20,11 @@ var rotateTheBox = function(boxGrid) {
 
             else if (boxGrid[i][j] === '#') {
 
-                if(j !== empty){
+                  boxGrid[i][j]= '.';
 
-                  [boxGrid[i][j], boxGrid[i][empty]] =
-                  [boxGrid[i][empty], boxGrid[i][j]];
+                  boxGrid[i][empty]='#';
 
-                }  
+                
 
                empty--;
 
