@@ -46,3 +46,5 @@ var maxValue = function(nums) {
 
     return ans;
 };
+
+//All coreected test cases passed!
