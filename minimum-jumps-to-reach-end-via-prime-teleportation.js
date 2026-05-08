@@ -101,3 +101,5 @@ var minJumps = function(nums) {
 
     return -1;
 };
+
+// Executed on LeetCode, all test cases passed!
