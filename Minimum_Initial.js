@@ -1,7 +1,3 @@
-/**
- * @param {number[][]} tasks
- * @return {number}
- */
 var minimumEffort = function(tasks) {
 
     // Sort by (minimum - actual) descending
@@ -26,3 +22,5 @@ var minimumEffort = function(tasks) {
 
     return ans;
 };
+// Time Complexity: O(n log n) due to sorting
+// Space Complexity: O(1) if we ignore the space used for sorting, otherwise O(n)
