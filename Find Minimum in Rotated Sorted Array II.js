@@ -27,4 +27,4 @@ var findMin = function(nums) {
     
 };
 
-sucssessfully submitted
+//sucssessfully submitted
