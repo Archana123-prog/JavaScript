@@ -26,3 +26,5 @@ var findMin = function(nums) {
     return nums[left];
     
 };
+
+sucssessfully submitted
