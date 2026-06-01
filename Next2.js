@@ -17,3 +17,6 @@ var minimumCost = function(cost) {
     return total;
     
 };
+
+// run with node Next2.js
+// code run successfully with test cases    
