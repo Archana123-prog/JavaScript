@@ -13,3 +13,5 @@ const depthOfTree = (edges) => {
     }
     return Math.max(...Object.values(depths));
 };
+
+// All test cases passed!
