@@ -28,3 +28,5 @@ var maxIceCream = function(costs, coins) {
 
     return answer;
 };
+
+// Time Complexity: O(n + m) where n is the length of costs and m is the maximum cost (100000).
