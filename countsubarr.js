@@ -20,3 +20,5 @@ var countMajoritySubarrays = function(nums, target) {
 
     return ans;
 };
+
+//correcct output is giving for Count Subarrays With Majority Element I
